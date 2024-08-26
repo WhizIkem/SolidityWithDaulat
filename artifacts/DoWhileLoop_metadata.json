@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewLoop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"doWhileLoop.sol": "DoWhileLoop"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"doWhileLoop.sol": {
+			"keccak256": "0xe185af81f89ecc2335fd19b3b560cd5824a827f9d1ddfffbacd9a552db72b06f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://76f977b57f4f411b992a4c48a43e7b767945c1a8f0cfc0979db9d204d62a1a5e",
+				"dweb:/ipfs/QmfSrbNBgd5FLZwXAQvEfpGCgQfJoYjjGCqnQBRSKZ8jQy"
+			]
+		}
+	},
+	"version": 1
+}
