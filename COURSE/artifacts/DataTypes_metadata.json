@@ -137,7 +137,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"dataTypes1.sol": "DataTypes"
+			"COURSE/dataTypes.sol": "DataTypes"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -151,7 +151,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"dataTypes1.sol": {
+		"COURSE/dataTypes.sol": {
 			"keccak256": "0x744d5251df865225392af57e1fcbbc41dc8072147823bdde51bef26e9e077882",
 			"license": "MIT",
 			"urls": [
