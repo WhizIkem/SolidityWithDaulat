@@ -7,9 +7,9 @@ contract IfEsle {
 
     function getInput(uint _number) public returns (string memory){
         if(_number == 15){
-            text = "Number is correct";
+            return text = "Number is correct";
         } else {
-            text = "Number is not correct";
+            return text = "Number is not correct";
         }
     }
 

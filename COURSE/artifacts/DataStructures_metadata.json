@@ -8,25 +8,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "getInput",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
+				"name": "addBalance",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "number",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -41,29 +46,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_inputNumber",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "shortHand",
+				"name": "scores",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "text",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -83,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ifElse.sol": "IfEsle"
+			"COURSE/dataStructures.sol": "DataStructures"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ifElse.sol": {
-			"keccak256": "0x72abf2fa436a7f5a78e2a0984eb9dcc70eec49919033fb5541db77917f7f0e8f",
+		"COURSE/dataStructures.sol": {
+			"keccak256": "0x4c4bb9b3468a725f6aa51a8a54dc3c2d8f1414182246638a290a99f49182babf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e6bca538af45752dcd9057dfe1d3b047e3ea22ee2b2d4d4132fa6db89df793f5",
-				"dweb:/ipfs/QmR1ZGbNFJH1JL4XcngdcpSnU1gonTaUdvBoNokUcYDAd8"
+				"bzz-raw://5888fc377a5c9d61def083f34a90d15923738eab12eda511f3206408437c3948",
+				"dweb:/ipfs/QmcrX8PeDMLkDef9kZbLSn1UnnfwZYg367YYCS76YUr7Cc"
 			]
 		}
 	},

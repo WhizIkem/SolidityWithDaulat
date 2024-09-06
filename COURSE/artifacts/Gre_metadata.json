@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"COURSE/interfaces.sol": "Gre"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"COURSE/interfaces.sol": {
+			"keccak256": "0x849194a8b4ea5188a1be8751c33e8bdd69a53725d4b89699bdf569272ee24e85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75c8618990e64de91d58c45653c17c54a82ef0c91364119aec5b066e3db8d21c",
+				"dweb:/ipfs/QmeESqyTVZnBNzDVRj1rdN19n6DT5qLY28yeKBp1jvoL9E"
+			]
+		}
+	},
+	"version": 1
+}

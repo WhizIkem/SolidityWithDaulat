@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
+				"inputs": [],
+				"name": "a",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes1",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes1"
 					}
 				],
 				"stateMutability": "view",
@@ -26,7 +20,46 @@
 			},
 			{
 				"inputs": [],
-				"name": "isActive",
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "erc",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "erc2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hey",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -38,40 +71,51 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "inum",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "newUser",
-						"type": "address"
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
-				"name": "updateUser",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "user",
+				"name": "maxNum",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minNum",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					},
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "no",
+				"outputs": [
 					{
 						"internalType": "bool",
-						"name": "isActive",
+						"name": "",
 						"type": "bool"
 					}
 				],
@@ -80,44 +124,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "userBalance",
+				"name": "num",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "userName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "users",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -137,7 +149,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"dataTypes1.sol": "DataTypes"
+			"dataTypes.sol": "DataTypes"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -151,12 +163,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"dataTypes1.sol": {
-			"keccak256": "0x744d5251df865225392af57e1fcbbc41dc8072147823bdde51bef26e9e077882",
+		"dataTypes.sol": {
+			"keccak256": "0x8c8ddb925de299c379f80268240313ce8c90ed8a5670c042042ae3f91bc0159c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e005cc47a5dd078ae52966047dd6baeab0280bb64edf006b12262889ee6faa5a",
-				"dweb:/ipfs/QmRrVEKWJzytoAZ21tKZpgM18aGjtsqWmkmMWHMtF8Ht1J"
+				"bzz-raw://bef8e7021a7d0f56b34fabb76f440d6ca22a444f366c71582e3a0da649ceed89",
+				"dweb:/ipfs/QmQzPrSKHopSr6CzD2DtaySsinQ7nf5Q5KB1SiBtfA1pj3"
 			]
 		}
 	},

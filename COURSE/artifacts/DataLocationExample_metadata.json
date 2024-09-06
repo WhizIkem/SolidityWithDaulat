@@ -6,27 +6,34 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					}
-				],
-				"name": "getInput",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
+				"inputs": [],
+				"name": "createArray",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "number",
+				"name": "getMemoryArray",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "storageArray",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -40,33 +47,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_inputNumber",
-						"type": "uint256"
+						"internalType": "uint256[]",
+						"name": "newArray",
+						"type": "uint256[]"
 					}
 				],
-				"name": "shortHand",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
+				"name": "updateStorage",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "text",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -83,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ifElse.sol": "IfEsle"
+			"COURSE/datalocation.sol": "DataLocationExample"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ifElse.sol": {
-			"keccak256": "0x72abf2fa436a7f5a78e2a0984eb9dcc70eec49919033fb5541db77917f7f0e8f",
+		"COURSE/datalocation.sol": {
+			"keccak256": "0x1c216cdcd678c4cd07b1afd5d60b2521b388c8551ef13e373ad33c83c2027a13",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e6bca538af45752dcd9057dfe1d3b047e3ea22ee2b2d4d4132fa6db89df793f5",
-				"dweb:/ipfs/QmR1ZGbNFJH1JL4XcngdcpSnU1gonTaUdvBoNokUcYDAd8"
+				"bzz-raw://18972d5103f2c7dedb8855da4093d955534d80136ea932c64fbd59fe571f46b4",
+				"dweb:/ipfs/QmY4VYHBkxxdwxo5UfterxuFEtueK1zQmvPr7Qeox9R9KK"
 			]
 		}
 	},

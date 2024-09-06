@@ -6,27 +6,20 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					}
-				],
-				"name": "getInput",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "number",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -38,32 +31,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_inputNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "shortHand",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "text",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -83,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ifElse.sol": "IfEsle"
+			"COURSE/payable.sol": "Payable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -97,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"ifElse.sol": {
-			"keccak256": "0x72abf2fa436a7f5a78e2a0984eb9dcc70eec49919033fb5541db77917f7f0e8f",
+		"COURSE/payable.sol": {
+			"keccak256": "0x8cbd8fd144a5bc293807cd5342074469890b319a33468acdcb938c1ffbee97f1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e6bca538af45752dcd9057dfe1d3b047e3ea22ee2b2d4d4132fa6db89df793f5",
-				"dweb:/ipfs/QmR1ZGbNFJH1JL4XcngdcpSnU1gonTaUdvBoNokUcYDAd8"
+				"bzz-raw://80dab083fc494b60786dba297b43e08503f0dbf5c12949729faefc86aefc0ddc",
+				"dweb:/ipfs/QmRgvbwnbxSBxkUVehQM2Ycfo6ro2hE5TRRY6ndwaUCNqT"
 			]
 		}
 	},
